@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kesiswaan | SMKN 10 Semarang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* TOMBOL KEMBALI (SAMA DENGAN KODE SEBELUMNYA) */
+    .back-button {
+      position: fixed;
+      top: 85px;
+      left: 20px;
+      z-index: 2000;
+      background: #2563eb;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.2s;
+    }
+
+    .back-button:hover {
+      background: #1e40af;
+      transform: translateY(-2px);
+    }
+
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      width: 45px;
+      height: 45px;
+      object-fit: contain;
+    }
+
+    header h1 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+
+    .hamburger {
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    #mobile-menu {
+      display: none;
+      background: #1f2937;
+      padding: 15px 35px;
+    }
+
+    #mobile-menu a {
+      display: block;
+      padding: 10px 0;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #mobile-menu a:hover {
+      color: #2563eb;
+    }
+
+    .article-container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .article-container h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: #1f2937;
+    }
+
+    .article-container .meta {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .article-container h3 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #1e40af;
+      font-size: 1.2em;
+    }
+
+    .article-container ul {
+      margin-left: 20px;
+    }
+
+    .article-container ul li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: #111827;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-button">← Kembali</a>
+
+<header>
+  <div class="logo-container">
+    <img src="image/smknew.png" alt="Logo SMKN 10" class="logo">
+    <h1>SMKN 10 Semarang</h1>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+</header>
+
+<div id="mobile-menu">
+  <a href="index.html">Beranda</a>
+  <a href="profil.html">Profil</a>
+  <a href="artikel.html">Artikel</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="#">Kontak</a>
+</div>
+
+<section class="article-container">
+  <h2>Tugas Utama Wakil Kepala Sekolah Bidang Kesiswaan</h2>
+  <p class="meta">
+    SMKN 10 Semarang • Bidang Kesiswaan
+  </p>
+
+  <p>
+    Tugas utama Wakil Kepala Sekolah (Waka) Bidang Kesiswaan di SMKN 10 Semarang
+    berfokus pada manajemen kesiswaan, pembinaan karakter, serta pengembangan
+    potensi peserta didik di luar kegiatan akademik utama. Saat ini, jabatan
+    Wakil Kepala Sekolah Bidang Kesiswaan di SMKN 10 Semarang dipegang oleh
+    <strong>Helmi Yuhdana Haryanto, S.Pd., M.M.</strong>
+  </p>
+
+  <p>
+    Secara umum, Waka Kesiswaan bertanggung jawab menciptakan lingkungan sekolah
+    yang aman, tertib, dan kondusif bagi perkembangan kepribadian serta prestasi siswa.
+    Berikut adalah rincian tugas dan fungsi pokoknya:
+  </p>
+
+  <h3>1. Perencanaan dan Pengorganisasian</h3>
+  <ul>
+    <li><strong>Penyusunan Program Kerja:</strong> Merancang program pembinaan kesiswaan tahunan yang selaras dengan visi dan misi sekolah.</li>
+    <li><strong>PPDB:</strong> Mengoordinasikan seluruh proses penerimaan peserta didik baru.</li>
+    <li><strong>Administrasi:</strong> Mengelola data kesiswaan, absensi, prestasi, dan pelanggaran siswa.</li>
+  </ul>
+
+  <h3>2. Pembinaan Karakter dan Kedisiplinan</h3>
+  <ul>
+    <li><strong>Tata Tertib:</strong> Mengawasi dan membina kepatuhan siswa terhadap peraturan sekolah.</li>
+    <li><strong>Program 7K:</strong> Menjaga keamanan, kebersihan, ketertiban, dan kesehatan lingkungan sekolah.</li>
+    <li><strong>Pencegahan Kekerasan:</strong> Menjamin lingkungan belajar yang aman dan nyaman.</li>
+  </ul>
+
+  <h3>3. Pengembangan Organisasi dan Ekstrakurikuler</h3>
+  <ul>
+    <li><strong>Pembinaan OSIS:</strong> Membimbing perencanaan dan pelaksanaan program kerja OSIS.</li>
+    <li><strong>Ekstrakurikuler:</strong> Mengembangkan minat dan bakat siswa.</li>
+    <li><strong>Delegasi Lomba:</strong> Mengirim perwakilan siswa ke berbagai kompetisi.</li>
+  </ul>
+
+  <h3>4. Layanan Siswa dan Hubungan Masyarakat</h3>
+  <ul>
+    <li><strong>Beasiswa:</strong> Mengelola seleksi siswa teladan dan penerima bantuan.</li>
+    <li><strong>Orang Tua:</strong> Menjalin komunikasi efektif dengan wali murid.</li>
+    <li><strong>Koordinasi:</strong> Bekerja sama dengan BK dan wali kelas.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 SMKN 10 Semarang</p>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>

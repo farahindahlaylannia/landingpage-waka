@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tata Tertib dan Kedisiplinan Siswa | SMKN 10 Semarang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* TOMBOL KEMBALI */
+    .back-button {
+      position: fixed;
+      top: 85px;
+      left: 20px;
+      z-index: 2000;
+      background: #2563eb;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.2s;
+    }
+
+    .back-button:hover {
+      background: #1e40af;
+      transform: translateY(-2px);
+    }
+
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      width: 45px;
+      height: 45px;
+      object-fit: contain;
+    }
+
+    header h1 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+
+    .hamburger {
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    #mobile-menu {
+      display: none;
+      background: #1f2937;
+      padding: 15px 35px;
+    }
+
+    #mobile-menu a {
+      display: block;
+      padding: 10px 0;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #mobile-menu a:hover {
+      color: #2563eb;
+    }
+
+    .article-container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .article-container h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #1f2937;
+    }
+
+    .meta {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .article-container h3 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #1e40af;
+      font-size: 1.2em;
+    }
+
+    .article-container p {
+      margin-bottom: 15px;
+      font-size: 0.95em;
+      color: #444;
+      text-align: justify;
+    }
+
+    .article-container ul {
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .article-container ul li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: #111827;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-button">← Kembali</a>
+
+<header>
+  <div class="logo-container">
+    <img src="image/smknew.png" alt="Logo SMKN 10" class="logo">
+    <h1>SMKN 10 Semarang</h1>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+</header>
+
+<div id="mobile-menu">
+  <a href="index.html">Beranda</a>
+  <a href="profil.html">Profil</a>
+  <a href="artikel.html">Artikel</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="#">Kontak</a>
+</div>
+
+<section class="article-container">
+  <h2>Tata Tertib dan Kedisiplinan Siswa</h2>
+  <p class="meta">
+    SMKN 10 Semarang • Bidang Kesiswaan
+  </p>
+
+  <p>
+    Tata tertib dan kedisiplinan siswa di SMKN 10 Semarang merupakan pedoman utama
+    dalam menciptakan lingkungan belajar yang tertib, aman, dan kondusif. Setiap
+    siswa diwajibkan mematuhi peraturan sekolah sebagai bentuk tanggung jawab dan
+    pembentukan karakter positif.
+  </p>
+
+  <h3>Kehadiran dan Waktu Sekolah</h3>
+  <ul>
+    <li>
+      <strong>Waktu Hadir:</strong> Siswa wajib hadir di sekolah tepat waktu dan
+      diharuskan sudah berada di kelas atau area sekolah beberapa menit sebelum
+      jam pelajaran dimulai.
+    </li>
+    <li>
+      <strong>Kegiatan Pagi:</strong> Kehadiran tepat waktu diperlukan untuk
+      mengikuti kegiatan rutin pagi, seperti ibadah pagi atau apel.
+    </li>
+    <li>
+      <strong>Proses Belajar Mengajar:</strong> Siswa dilarang meninggalkan kelas
+      saat jam pelajaran berlangsung tanpa izin dari guru piket atau guru mata
+      pelajaran.
+    </li>
+    <li>
+      <strong>Upacara Bendera:</strong> Partisipasi dalam upacara bendera bersifat
+      wajib sebagai bentuk tanggung jawab siswa dan penguatan nilai kedisiplinan.
+    </li>
+  </ul>
+
+  <h3>Pakaian dan Penampilan</h3>
+  <ul>
+    <li>
+      <strong>Seragam:</strong> Siswa wajib mengenakan seragam sekolah lengkap
+      sesuai jadwal yang ditentukan, termasuk seragam nasional (putih abu-abu
+      untuk SMK) serta seragam khas sekolah atau Pramuka pada hari tertentu.
+    </li>
+    <li>
+      <strong>Kerapian:</strong> Penampilan siswa, termasuk potongan rambut dan
+      penggunaan aksesori, diatur secara ketat untuk menjaga kerapian dan
+      keseragaman.
+    </li>
+  </ul>
+
+  <h3>Perilaku dan Etika</h3>
+  <ul>
+    <li>
+      <strong>Sikap Hormat:</strong> Siswa diwajibkan menghormati kepala sekolah,
+      guru, tenaga kependidikan, serta sesama teman.
+    </li>
+    <li>
+      <strong>Budaya 5S:</strong> Penerapan budaya 5S (Senyum, Sapa, Salam, Sopan,
+      dan Santun) ditekankan dalam setiap interaksi di lingkungan sekolah.
+    </li>
+    <li>
+      <strong>Menjaga Nama Baik:</strong> Setiap siswa memiliki tanggung jawab
+      untuk menjaga nama baik sekolah, baik di dalam maupun di luar lingkungan
+      sekolah.
+    </li>
+    <li>
+      <strong>Kebersihan:</strong> Menjaga kebersihan kelas, bengkel (area praktik),
+      dan seluruh lingkungan sekolah merupakan kewajiban rutin siswa, termasuk
+      melalui pelaksanaan jadwal piket.
+    </li>
+  </ul>
+
+  <h3>Larangan Keras</h3>
+  <p>
+    SMKN 10 Semarang menerapkan larangan keras terhadap berbagai tindakan yang
+    dapat mengganggu ketertiban dan keselamatan warga sekolah, antara lain:
+  </p>
+  <ul>
+    <li>Membawa atau mengonsumsi rokok, minuman beralkohol, dan narkoba.</li>
+    <li>Membawa senjata tajam atau senjata api ke lingkungan sekolah.</li>
+    <li>Terlibat dalam perkelahian, kekerasan, atau perundungan.</li>
+    <li>Membolos dari kegiatan belajar mengajar tanpa keterangan yang sah.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 SMKN 10 Semarang</p>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>
